@@ -4,7 +4,7 @@ Starting point:
 
 1. Pick an appropriate dataset
 2. Gather papers
-3. Set up github
+3. Set up GitHub
 4. Set up a virtual Environment
 
 Resources: (Understand all the 4 -> Deadline 10th July - Make sure theoretically you are strong(Q&A in the upcoming meeting))
@@ -80,7 +80,8 @@ https://www.academis.eu/machine_learning/deep_learning/convolutional_neural_netw
 
 Python code:
 
-training_data
+training_data (sent via teams)
+
 PretrainedNetworks_1.ipynb
 
 
