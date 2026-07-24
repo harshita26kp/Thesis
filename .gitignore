@@ -1,14 +1,26 @@
+# Virtual environments
 venv/
 .venv/
+
+# Python cache
 __pycache__/
+*.py[cod]
+
+# Jupyter
 .ipynb_checkpoints/
-*.pyc
-.DS_Storevenv/
-.venv/
-__pycache__/
-.ipynb_checkpoints/
-*.pyc
-.DS_Storevenv/
-__pycache__/
-.ipynb_checkpoints/
-*.pyc
+
+# Dataset
+data/
+
+# Trained models
+outputs/models/
+
+# Optional outputs (if you don't want to upload generated images/metrics)
+outputs/figures/
+outputs/metrics/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
