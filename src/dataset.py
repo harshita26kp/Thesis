@@ -29,12 +29,29 @@ def get_dataloaders(batch_size=16):
 
     print("Training dataset loaded.")
 
+    print("Loading test dataset...")
+
+    test_dataset = Food101(
+        root=DATASET_PATH,
+        split="test",
+        transform=transform,
+        download=False
+    )
+
+    print("Test dataset loaded.")
+
     train_loader = DataLoader(
         train_dataset,
         batch_size=batch_size,
         shuffle=True
     )
 
-    print("Training DataLoader created.")
+    test_loader = DataLoader(
+        test_dataset,
+        batch_size=1,
+        shuffle=False
+    )
 
-    return train_loader, None
+    print("DataLoaders created.")
+
+    return train_loader, test_loader
